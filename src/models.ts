@@ -1,5 +1,5 @@
 export interface Iproduct {
-    id?: number
+    id: number
     title: string
     price: number
     description:string
@@ -9,4 +9,8 @@ export interface Iproduct {
         rate: number
         count: number
     }
+}
+
+export interface ProductProps {
+    product: Iproduct
 }
